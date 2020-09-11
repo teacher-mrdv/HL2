@@ -6,6 +6,7 @@ public class BSTree
 	public BSTree(int data)
 	{
 		this.root = new BNode(data);
+		System.out.printf("Buidling BST with root %d\n", data);
 	}
 	
 	public boolean isEmpty()
@@ -56,7 +57,7 @@ public class BSTree
 	public void inOrder(BNode node)
 	{
 		if(node.left != null) inOrder(node.left);
-		System.out.println(node.data + " ");
+		System.out.print(node.data + " ");
 		if(node.right!= null) inOrder(node.right);
 	}
 	
