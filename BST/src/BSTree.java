@@ -37,7 +37,7 @@ public class BSTree
 		}
 	}
 	
-	public boolean find(BNode node, int searchData)
+	public boolean isFound(BNode node, int searchData)
 	{
 		if( node == null )
 		{
@@ -48,9 +48,9 @@ public class BSTree
 			return true;
 		} else if( searchData < node.data )
 		{
-			return find(node.left, searchData);
+			return isFound(node.left, searchData);
 		} else {
-			return find(node.right, searchData);
+			return isFound(node.right, searchData);
 		}
 	}
 	
