@@ -16,9 +16,9 @@ public class BSTTest
 		myBST.add(myBST.root, 8);
 		System.out.println();
 		System.out.println("Is 9 in the tree? " +
-				myBST.find(myBST.root, 9));
+				myBST.isFound(myBST.root, 9));
 		System.out.println("Is 0 in the tree? " +
-				myBST.find(myBST.root, 0));
+				myBST.isFound(myBST.root, 0));
 		myBST.inOrder(myBST.root);
 	}
 
