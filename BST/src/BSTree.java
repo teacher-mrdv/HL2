@@ -14,7 +14,12 @@ public class BSTree
 		return root == null;
 	}
 	
-	public void add(BNode node, int data)
+	public void add(int data)
+	{
+		add(this.root, data);
+	}
+	
+	private void add(BNode node, int data)
 	{
 		if( data < node.data )
 		{
