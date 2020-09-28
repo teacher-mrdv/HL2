@@ -1,3 +1,4 @@
+package intBST;
 
 public class BSTree
 {
