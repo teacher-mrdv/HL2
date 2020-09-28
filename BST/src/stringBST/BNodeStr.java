@@ -4,6 +4,10 @@ package stringBST;
  * 	implement data --> String		DONE!
  * 	fully encapsulate all classes	HW4U
  */
+
+// implements here tells Java that this class can compare
+// one of its objects to another object of the same class
+// [ unsing the compareTo method, see near end of the code ]
 public class BNodeStr implements Comparable<BNodeStr>
 {
 	BNodeStr left;
