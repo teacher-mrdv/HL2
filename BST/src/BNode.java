@@ -1,4 +1,8 @@
-
+/*
+ * Next:
+ * 	implement data --> String
+ * 	fully encapsulate all classes
+ */
 public class BNode
 {
 	BNode left;

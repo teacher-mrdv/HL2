@@ -16,11 +16,15 @@ public class BSTTest
 		myBST.add(10);
 		myBST.add(8);
 		System.out.println();
-		System.out.println("Is 9 in the tree? " +
-				myBST.isFound(myBST.root, 9));
-		System.out.println("Is 0 in the tree? " +
-				myBST.isFound(myBST.root, 0));
-		myBST.inOrder(myBST.root);
+		System.out.println("Is 9 in the tree? " + myBST.isFound(9));
+		System.out.println("Is 0 in the tree? " + myBST.isFound(0));
+		System.out.println("\nPre order traversal:");
+		myBST.preOrder();
+		System.out.println("\nIn order traversal:");
+		myBST.inOrder();
+		System.out.println("\nPost order traversal:");
+		myBST.postOrder();
+		
 	}
 
 }
